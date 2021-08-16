@@ -1,0 +1,10 @@
+version: "3"
+services: 
+    app:
+        build: .
+        image: ift-calendar-be
+        tty: true
+        ports:
+            - "8080:1323" # HOST:CONTAINER
+        volumes:
+            - ./src:/go/src/app

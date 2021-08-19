@@ -8,3 +8,4 @@ services:
             - "8080:1323" # HOST:CONTAINER
         volumes:
             - ./src:/go/src/app
+            # - go_path:/go

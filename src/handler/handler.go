@@ -8,6 +8,6 @@ import (
 
 func MainPage() echo.HandlerFunc {
 	return func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello World")
+		return c.String(http.StatusOK, "Hello Go Go Go Stop Go")
 	}
 }
